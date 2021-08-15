@@ -1,0 +1,22 @@
+/*SECCION CUENTAS*/
+
+.cuenta h4{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .cuenta form{
+    font-style: initial;
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    
+  
+    width: 80%;
+    height: 90%;
+  }

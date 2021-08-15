@@ -1,0 +1,47 @@
+/*SECCION SUBMENU*/
+
+.menuInferior__titulos {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    /*animation-name: aparecer;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-delay: 1s;*/
+  }
+  
+  .menuInferior__titulos--h5 {
+    font-size: 40px;
+  }
+  
+  .menuInferior__img {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 50px;
+    padding: 50px 10px 10px 10px;
+  }
+  
+  .menuInferior__img--mesGratis:hover {
+    transition: 1s;
+    transform: scale(1.2, 1.2);
+  }
+  
+  .menuInferior__img--spotify:hover {
+    transition: 1s;
+    transform: scale(1.2, 1.2);
+  }
+  
+  .menuInferior__img--merchan:hover {
+    transition: 1s;
+    transform: scale(1.2, 1.2);
+  }
+
+  @media (max-width: 780px) {
+    .menuInferior__titulos--h5{
+      font-size: 15px;
+    }
+  }

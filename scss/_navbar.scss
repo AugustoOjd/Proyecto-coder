@@ -1,0 +1,55 @@
+/*SECCION BARRA DE NAVEGACION*/
+
+.listaMenu {
+    list-style: none;
+    font-size: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  ul ul {
+    position: absolute;
+    display: none;
+    font-size: 15px;
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+  
+  ul ul li {
+    display: block;
+  }
+  
+  /*ul li:hover ul{
+      display: block;
+  }*/
+  .subMenuHoroscopo {
+    font-size: 25px;
+    width: auto;
+    margin-top: -90px;
+    margin-left: 220px;
+    padding: 10px;
+    transition: 5s;
+  }
+  
+  .subMenuHoroscopo:hover {
+    transform: scale(1.2, 1.2);
+    transition: 2s;
+  }
+  
+  /*Sub Menu*/
+  .subMenuCursos {
+    font-size: 25px;
+    width: auto;
+    margin-top: -40px;
+    margin-left: 160px;
+    padding: 10px;
+  }
+  
+  .subMenuMerchan {
+    font-size: 25px;
+    width: auto;
+    margin-top: -40px;
+    margin-left: 300px;
+    padding: 10px;
+  }

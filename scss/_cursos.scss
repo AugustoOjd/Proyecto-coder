@@ -1,0 +1,112 @@
+/*SECCION CURSOS*/
+
+.cursos h3{
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .cursos__meditacion{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 40px;
+  
+    border: solid black 1px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .cursos__tarot{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 40px;
+  
+    border: solid black 1px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .cursos__astral{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 40px;
+  
+    border: solid black 1px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .cursos__meditacion h4{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  
+  .cursos__tarot h4{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  
+  .cursos__astral h4{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  
+  
+  .cursos__meditacion--img{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    width: 450px;
+    height: 250px;
+  }
+  
+  .cursos__tarot--img{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    width: 450px;
+    height: 250px;
+  }
+  
+  .cursos__astral--img{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    width: 450px;
+    height: 250px;
+  }
+
+  @media (max-width: 768px) {
+    .contenedor .cursos{
+        height: 1300px;
+    }
+    .cursos h3{
+        font-size: 60px;
+    }
+    
+    .cursos__meditacion--img{
+        width: 75%;
+        height: 250px;
+    }
+    
+    .cursos__tarot--img{
+      width: 75%;
+      height: 250px;
+    }
+    
+    .cursos__astral--img{
+      width: 75%;
+      height: 250px;
+    }
+  }
+
+  

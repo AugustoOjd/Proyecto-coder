@@ -1,0 +1,82 @@
+/*SECCION GUIA ESPIRITUAL*/
+.titulo{
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  .organiza{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+  
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: solid black 1px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .organizaTuEje h4{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .organiza__img{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .tutor{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+  
+    border: solid black 1px;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .tutor h4{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  
+    width: 100%;
+  }
+  
+  .video{
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+  }
+
+  @media (max-width: 768px) {
+    .titulo{
+        padding: 20px;
+        font-size: 40px;
+    }
+  
+    .video{
+        width: 100%;
+        height: 250px;
+    }
+  
+    .organiza__img{
+      width: 200px;
+      height: 300px;
+    }
+  
+    .tutor h4{
+      font-size: 20px;
+    }
+  }

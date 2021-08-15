@@ -1,0 +1,54 @@
+/*Registro e ingreso*/
+.header__cuentas {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .header__cuentas--link {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+  }
+  
+  /*Redes Sociales*/
+  .header__redesSociales {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: auto;
+    height: 98%;
+  }
+  
+  .header__redesSociales a:hover {
+    color: rgba(0, 0, 0, 0.692);
+    transform: scale(1.5, 1.5);
+    transition: 1s;
+  }
+  
+  .header__redesSociales--facebook {
+    display: flex;
+    font-size: 40px;
+    padding: 5px;
+    margin: 10px;
+    color: #3b5998;
+  }
+  
+  .header__redesSociales--twitter {
+    display: flex;
+    font-size: 40px;
+    padding: 5px;
+    margin: 10px;
+    color: #00acee;
+  }
+  
+  .header__redesSociales--youtube {
+    display: flex;
+    font-size: 40px;
+    padding: 5px;
+    margin: 10px;
+    color: #c4302b;
+  }
