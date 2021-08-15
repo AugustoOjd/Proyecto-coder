@@ -1,4 +1,6 @@
 /*SECCION MERCHANDISING*/
+$color1: #ffbcf6;
+$color2: #a3ebff;
 
 .merchan h3{
     font-size: 60px;
@@ -35,12 +37,25 @@
     border-bottom: solid black 1px;
   }
   
+
   .merchan__productos--img{
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
     width: 200px;
     height: 200px;
+    background-color: $color1;
+    
   }
+
+  .merchan__productos--img:hover{
+    transform: scale(1.1, 1.1);
+    transition: 1.4s;
+  }
+
+  .prod-blue{
+    background-color: $color2;
+  }
+
 
   @media (max-width: 768px){
     .contenedor .merchan{
