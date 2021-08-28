@@ -61,20 +61,16 @@ $color2: #a3ebff;
     .contenedor .merchan{
         background-repeat: no-repeat;
         height: 2200px;
+        
       }
       .merchan h3{
         font-size: 40px;
       }
       
-      .productos{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: space-between;
-        margin-left: 20px;
-        padding: 100px;
-        width: 100%;
-        height: 500px;
+      .merchan__productos{
+        margin-left: 40px;
       }
+      
       
       .productos img{
         width: 100%;

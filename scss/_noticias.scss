@@ -72,3 +72,9 @@
     margin-right: 5px;
     padding: 10px;
   }
+
+  @media (max-width: 780px) {
+    .podcast iframe{
+      width: 350px;
+    }
+  }
